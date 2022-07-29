@@ -288,6 +288,29 @@
     gap: 6rem;
   }
 
+  #home .stats .stat a.button-catalogo {
+    text-decoration: none;
+    color: var(--primary-color);
+
+    background: var(--secondary-color);
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    margin-inline: auto;
+    margin-block: 2rem;
+    
+    padding: 1rem 2.5rem;
+
+  }
+
   #home .stat h3 {
     font-size: 3rem;
     color: var(--secondary-color);
@@ -608,7 +631,7 @@
     }
   
     nav#navegacao.scroll .menu li a::after {
-      background-color: var(--secondary-color);
+      background-color: var(--terceary-color);
     }
   
     nav#navegacao .menu li a.active::after,
@@ -661,6 +684,35 @@
       flex-direction: row;
       padding: 4.5rem;
       gap: 0;
+    }
+
+    #home .stats .stat a.button-catalogo {
+      text-decoration: none;
+      color: var(--primary-color);
+  
+      background: var(--secondary-color);
+      border-radius: 4rem;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+      display: flex;
+      flex-direction: column;
+  
+      width: 50%;
+      margin-inline: auto;
+      margin-block: 1.5rem;
+      
+      padding: 1rem 2.5rem;
+  
+    }
+
+    #home .stats .stat a.button-catalogo:hover {
+      background-color: var(--terceary-color);
+    
+      filter: brightness(1.5);
     }
   
     #home .stats .stat + .stat {
